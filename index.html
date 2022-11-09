@@ -5,15 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ristorante Con Fusion</title>
+
+    <!-- CSS Links-->
+
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Ristorante Con Fusion</title>
 
 </head>
 
 <body>
+    <!-- Nav Bar-->
+
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
@@ -36,6 +41,9 @@
         </div>
     </nav>
 
+
+    <!-- Header -->
+
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -49,14 +57,21 @@
                 <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" alt="Ristorante cn Fusion logo" class="img-fluid">
                 </div>
-                <div class="col-12 col-sm-3 align-self-center btn btn-lg btn-block btn-warning">
-                    <a href="#reserve" class="btn-link text-dark" style="text-decoration:none;"> Reserve a table</a>
-                </div>
+                <a href="#reserve" class="col-12 col-sm-3 align-self-center btn btn-lg btn-block btn-warning">
+                    Reserve a table</a>
             </div>
         </div>
     </header>
 
+
+    <!-- Start of page content container -->
+
     <div class="container">
+
+        <!--Start of Main Content -->
+
+        <!-- First row Content -->
+
         <div class="row row-content">
             <div class="col-12 col-sm-4 col-md-3 order-sm-last">
                 <h3>Our Lipsmacking Culinary Creations</h3>
@@ -79,6 +94,7 @@
             </div>
         </div>
 
+        <!-- Second Row Content -->
 
         <div class="row row-content">
             <div class="col-12 col-sm-4 col-md-3 order-sm-first">
@@ -100,6 +116,9 @@
             </div>
         </div>
 
+
+        <!-- Third Row Content -->
+
         <div class="row row-content">
             <div class="col-12 col-sm-4 col-md-3 order-sm-last">
                 <h3>Meet our Culinary Specialists</h3>
@@ -120,12 +139,21 @@
             </div>
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-8 mt-5 mb-5">
-                <a id="reserve"><div class="card">
+        <!-- Reserve Table Form -->
+
+        <div id="reserve" class="row justify-content-center">
+
+            <div class="col-8 my-5">
+
+                <div class="card">
+
                     <h2 class="card-header text-center bg-warning text-white">RESERVE A TABLE</h2>
                     <div class="card-body">
+
                         <form>
+
+                            <!-- Num of guests form -->
+
                             <div class="form-group row">
                                 <label class="form-check-label col-md-2"> <strong>Number of guests</strong> </label>
                                 <div class="col-md-10">
@@ -134,54 +162,82 @@
                                             id="Radio1" value="option1">
                                         <label class="form-check-label" for="Radio1">1</label>
                                     </div>
+
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="inlineRadioOptions"
                                             id="Radio2" value="option2">
                                         <label class="form-check-label" for="Radio2">2</label>
                                     </div>
+
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="inlineRadioOptions"
                                             id="Radio3" value="option3" disabled>
                                         <label class="form-check-label" for="Radio3">3</label>
                                     </div>
+
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="inlineRadioOptions"
                                             id="Radio4" value="option3" disabled>
                                         <label class="form-check-label" for="Radio4">4</label>
                                     </div>
+
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="inlineRadioOptions"
                                             id="Radio5" value="option3" disabled>
                                         <label class="form-check-label" for="Radio5">5</label>
                                     </div>
+
                                 </div>
                             </div>
+
+                            <!-- End of Num of guests form -->
+
+                            <!-- Date and time form-->
+
                             <div class="form-group row">
-                                <label class="form-label col-md-2" for="date"> <strong>Date and time</strong></label>
-                                <div class="col-md-5"> <input type="text" class="form-control" placeholder="Date"
-                                        id="date">
+                                <label class="form-label col-md-2" for="date">
+                                    <strong>Date and time </strong>
+                                </label>
+
+                                <div class="col-md-5">
+                                    <input type="text" class="form-control" placeholder="Date" id="date">
                                 </div>
-                                <div class="col-md-5"> <input type="text" class="form-control" placeholder="Time"
-                                        id="date">
+
+                                <div class="col-md-5">
+                                    <input type="text" class="form-control" placeholder="Time">
                                 </div>
                             </div>
+
+                            <!--End of Date and time form-->
+
                             <div class="form-group row">
                                 <div class="offset-md-2 col-md-10">
                                     <button type="submit" class="btn btn-primary">Submit</button>
                                 </div>
                             </div>
+
                         </form>
+
                     </div>
+
                 </div>
-                </a>
+
             </div>
         </div>
+        <!-- End of Reserve Table Form -->
+
+        <!--End of Main content-->
+
     </div>
+
+    <!-- End of page content container -->
 
 
     <footer class=" footer">
         <div class="container">
+
             <div class="row">
+
                 <div class=" offset-1 col-4 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
@@ -191,6 +247,8 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
+
+
                 <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
@@ -202,7 +260,10 @@
                         Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
                     </address>
                 </div>
+
+
                 <div class="col-12 col-sm align-self-center">
+
                     <div class="text-center">
                         <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
                                 class="fa fa-google-plus"></i></a>
@@ -216,15 +277,25 @@
                                 class="fa fa-youtube"></i></a>
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                     </div>
+
                 </div>
+
             </div>
+
             <div class="row mt-5 justify-content-center">
+
                 <div class="col-auto ">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
+
             </div>
+
         </div>
+
     </footer>
+
+
+    <!-- Booststrap JS, Jquery and popper-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
