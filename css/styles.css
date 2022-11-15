@@ -37,3 +37,14 @@ body{
 .navbar-dark{
     background-color: #521da8;
 }
+
+.tab-content{
+    border-left: 1px solid #dddd;
+    border-right: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    padding: 20px;
+}
+
+.card-header{
+    cursor: pointer;
+}
